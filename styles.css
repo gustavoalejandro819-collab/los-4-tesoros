@@ -795,9 +795,7 @@ textarea {
     margin: 0;
 }
 
-
 /* Campos */
-
 .campo label {
     display: block;
 
@@ -829,7 +827,6 @@ textarea {
 .campo textarea:focus {
     border-color: var(--turquesa);
 }
-
 
 /* Opciones */
 
@@ -880,7 +877,7 @@ textarea {
 
 
 /* =========================
-   FOOTER
+FOOTER
    ========================= */
 
 .footer {
@@ -895,7 +892,7 @@ textarea {
 
 
 /* =========================
-   TOAST
+TOAST
    ========================= */
 
 .toast {
@@ -927,7 +924,7 @@ textarea {
 
 
 /* =========================
-   CELULAR
+CELULAR
    ========================= */
 
 @media (max-width: 600px) {
@@ -990,7 +987,7 @@ textarea {
     }
 }
 /* =========================
-   BOTÓN FLOTANTE FACEBOOK
+BOTÓN FLOTANTE FACEBOOK
    ========================= */
 
 .facebook-flotante {
@@ -1029,9 +1026,8 @@ textarea {
     fill: currentColor;
     display: block;
 }
-
 /* =========================
-   BOTÓN FACEBOOK EN HEADER
+BOTÓN FACEBOOK EN HEADER
    ========================= */
 
 .boton-facebook-header {

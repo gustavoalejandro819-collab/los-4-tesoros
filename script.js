@@ -253,7 +253,7 @@ const productos = [
         id: 28,
         nombre: "KIT de destornillador",
         categoria: "Bazar",
-        precio: 10000,
+        precio: 30000,
         etiqueta: "NUEVO",
         imagen: "productos/kit-de-destornilladores.jpeg",
         descripcion: "Set de destornilladores de precisión ideal para reparaciones electrónicas y hogareñas."
