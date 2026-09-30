@@ -12,7 +12,7 @@ const productos = [
         categoria: "Bazar",
         precio: 5000,
         etiqueta: "NUEVO",
-        imagen: "productos/mates de vidrio.jpeg",
+        imagen: "productos/mates-de-vidrio.jpeg",
         descripcion: "Mate de vidrio forrado, ideal para el uso diario."
     },
     {
@@ -21,7 +21,7 @@ const productos = [
         categoria: "Bazar",
         precio: 10000,
         etiqueta: "NUEVO",
-        imagen: "productos/balanza gramera.jpeg",
+        imagen: "productos/balanza-gramera.jpeg",
         descripcion: "Balanza para calcular los gramos de tus ingredientes favoritos."
     },
     {
@@ -30,7 +30,7 @@ const productos = [
         categoria: "Bazar",
         precio: 3500,
         etiqueta: "NUEVO",
-        imagen: "productos/batidor de cafe.jpeg",
+        imagen: "productos/batidor-de-cafe.jpeg",
         descripcion: "Ideal para espumar leche y café en segundos."
     },
     {
@@ -48,7 +48,7 @@ const productos = [
         categoria: "Bazar",
         precio: 4000,
         etiqueta: "NUEVO",
-        imagen: "productos/piedra depiladora.jpeg",
+        imagen: "productos/piedra-depiladora.jpeg",
         descripcion: "Piedra depiladora de cristal para una exfoliación y depilación suave sin dolor."
     },
     {
@@ -57,7 +57,7 @@ const productos = [
         categoria: "Bazar",
         precio: 3000,
         etiqueta: "NUEVO",
-        imagen: "productos/termometro digital.jpeg",
+        imagen: "productos/termometro-digital.jpeg",
         descripcion: "Termómetro digital de alta precisión de respuesta rápida para el hogar."
     },
     {
@@ -66,7 +66,7 @@ const productos = [
         categoria: "Electrónica",
         precio: 3000,
         etiqueta: "MÁS VENDIDO",
-        imagen: "productos/usb ficha comun.jpeg",
+        imagen: "productos/usb-ficha-comun.jpeg",
         descripcion: "Cable USB con conector estándar tipo Micro-USB para carga y transferencia de datos."
     },
     {
@@ -75,7 +75,7 @@ const productos = [
         categoria: "Electrónica",
         precio: 4500,
         etiqueta: "MÁS VENDIDO",
-        imagen: "productos/usb ficha C.jpeg",
+        imagen: "productos/usb-ficha-C.jpeg",
         descripcion: "Cable USB Tipo-C de alta resistencia compatible con la mayoría de celulares modernos."
     },
     {
@@ -84,7 +84,7 @@ const productos = [
         categoria: "Electrónica",
         precio: 10000,
         etiqueta: "NUEVO",
-        imagen: "productos/cargador rapido.jpeg",
+        imagen: "productos/cargador-rapido.jpeg",
         descripcion: "Cargador carga rápida y protección contra sobrecalentamiento."
     },
     {
@@ -93,7 +93,7 @@ const productos = [
         categoria: "Electrónica",
         precio: 10000,
         etiqueta: "NUEVO",
-        imagen: "productos/cargador carga rapida samsung.jpeg",
+        imagen: "productos/cargador-carga-rapida-samsung.jpeg",
         descripcion: "Cargador marca Samsung garantiza una carga rápida y estable."
     },
     {
@@ -102,7 +102,7 @@ const productos = [
         categoria: "Electrónica",
         precio: 8000,
         etiqueta: "NUEVO",
-        imagen: "productos/cargador carga rapida.jpeg",
+        imagen: "productos/cargador-carga-rapida.jpeg",
         descripcion: "Cargador de carga rápida entregando energía de manera estable."
     },
     {
@@ -111,7 +111,7 @@ const productos = [
         categoria: "Electrónica",
         precio: 10000,
         etiqueta: "NUEVO",
-        imagen: "productos/cargador 45w.jpeg",
+        imagen: "productos/cargador-45w.jpeg",
         descripcion: "Cargador entrega 45W de manera ininterrumpida y sin sobrecalentamiento."
     },
     {
@@ -120,7 +120,7 @@ const productos = [
         categoria: "Electrónica",
         precio: 15000,
         etiqueta: "NUEVO",
-        imagen: "productos/auriculares bluetoth.jpeg",
+        imagen: "productos/auriculares-bluetoth.jpeg",
         descripcion: "Auriculares inalámbricos con excelente calidad de sonido y estuche de carga compacto."
     },
     {
@@ -129,7 +129,7 @@ const productos = [
         categoria: "Electrónica",
         precio: 20000,
         etiqueta: "NUEVO",
-        imagen: "productos/auri bluetooth.jpeg",
+        imagen: "productos/auri-bluetooth.jpeg",
         descripcion: "Auricular bluetooth M88 plus incluye cargador portátil con 3 fichas diferentes."
     },
     {
@@ -138,7 +138,7 @@ const productos = [
         categoria: "Bazar",
         precio: 20000,
         etiqueta: "NUEVO",
-        imagen: "productos/termo de acero.jpeg",
+        imagen: "productos/termo-de-acero.jpeg",
         descripcion: "Termo de acero inoxidable de 500ML incluye 3 tazas."
     },
     {
@@ -147,7 +147,7 @@ const productos = [
         categoria: "Bazar",
         precio: 25000,
         etiqueta: "NUEVO",
-        imagen: "productos/soporte tv.jpeg",
+        imagen: "productos/soporte-tv.jpeg",
         descripcion: "Soporte reforzado para pantallas de gran tamaño de hasta 85 pulgadas."
     },
     {
@@ -156,7 +156,7 @@ const productos = [
         categoria: "Bazar",
         precio: 15000,
         etiqueta: "NUEVO",
-        imagen: "productos/soporte tv 42.jpeg",
+        imagen: "productos/soporte-tv-42.jpeg",
         descripcion: "Soporte de pared resistente compatible con TVs de hasta 42 pulgadas."
     },
     {
@@ -174,7 +174,7 @@ const productos = [
         categoria: "Bazar",
         precio: 30000,
         etiqueta: "NUEVO",
-        imagen: "productos/termo stanley.jpeg",
+        imagen: "productos/termo-stanley.jpeg",
         descripcion: "Termo resistente de 1 litro que conserva la temperatura por horas."
     },
     {
@@ -201,7 +201,7 @@ const productos = [
         categoria: "Bazar",
         precio: 20000,
         etiqueta: "NUEVO",
-        imagen: "productos/cartel neon.jpeg",
+        imagen: "productos/cartel-neon.jpeg",
         descripcion: "Cartel LED luminoso 'Abierto' ideal para llamar la atención en tu local comercial."
     },
     {
@@ -210,7 +210,7 @@ const productos = [
         categoria: "Bazar",
         precio: 12000,
         etiqueta: "NUEVO",
-        imagen: "productos/plancha pelo.jpeg",
+        imagen: "productos/plancha-pelo.jpeg",
         descripcion: "Plancha para cabello de rápido calentamiento para un alisado perfecto."
     },
     {
@@ -228,7 +228,7 @@ const productos = [
         categoria: "Bazar",
         precio: 20000,
         etiqueta: "NUEVO",
-        imagen: "productos/foco bolichero.jpeg",
+        imagen: "productos/foco-bolichero.jpeg",
         descripcion: "Lámpara giratoria RGB con efectos de luces para ambientar fiestas."
     },
     {
@@ -237,7 +237,7 @@ const productos = [
         categoria: "Electrónica",
         precio: 8000,
         etiqueta: "NUEVO",
-        imagen: "productos/auricular p47.jpeg",
+        imagen: "productos/auricular-p47.jpeg",
         descripcion: "Auriculares vincha plegables con Bluetooth, radio FM y entrada para tarjeta SD."
     },
     {
@@ -255,7 +255,7 @@ const productos = [
         categoria: "Bazar",
         precio: 10000,
         etiqueta: "NUEVO",
-        imagen: "productos/kit de destornilladores.jpeg",
+        imagen: "productos/kit-de-destornilladores.jpeg",
         descripcion: "Set de destornilladores de precisión ideal para reparaciones electrónicas y hogareñas."
     }
 ];
