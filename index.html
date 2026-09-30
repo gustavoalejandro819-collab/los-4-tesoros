@@ -28,46 +28,50 @@
 
 <body>
 
+<!-- =========================
+    HEADER
+========================== -->
 
-    <!-- =========================
-        HEADER
-    ========================== -->
+<!-- =========================
+    HEADER
+========================== -->
 
-    <header class="header">
+<header class="header">
 
-        <div class="header-contenido">
+    <div class="header-contenido">
 
-            <!-- Logo -->
-            <div class="logo">
-                <img src="logo/logo 2.jpeg" alt="Los 4 tesoros">
-            </div>
+        <!-- Logo -->
+        <div class="logo">
+            <img src="logo/logo 2.jpeg" alt="Los 4 tesoros">
+        </div>
 
 
-            <!-- Buscador -->
+        <!-- Buscador integrado -->
+        <div class="buscador-contenedor">
+            <span class="icono-lupa">🔍</span>
             <input
                 id="buscador"
                 class="buscador"
-                type="text"
+                type="search"
                 placeholder="Buscar productos..."
+                autocomplete="off"
             >
-
-
-            <!-- Carrito -->
-            <button
-                id="abrirCarrito"
-                class="boton-carrito"
-            >
-                🛒 Carrito
-
-                <b id="cantidadCarrito">0</b>
-            </button>
-
         </div>
 
-    </header>
 
+        <!-- Carrito -->
+        <button
+            id="abrirCarrito"
+            class="boton-carrito"
+        >
+            🛒 Carrito
 
+            <b id="cantidadCarrito">0</b>
+        </button>
 
+    </div>
+
+</header>
     <!-- =========================
          HERO
     ========================== -->
@@ -147,21 +151,6 @@
         ></div>
 
     </main>
-
-
-
-    <!-- =========================
-         FOOTER
-    ========================== -->
-
-    <footer class="footer">
-
-        Los 4 tesoros ·
-        Pedidos por WhatsApp ·
-        Precios y stock sujetos a confirmación
-
-    </footer>
-
 
 
     <!-- =========================

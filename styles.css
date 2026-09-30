@@ -90,10 +90,25 @@ textarea {
 
 /* Buscador */
 
-.buscador {
+.buscador-contenedor {
     flex: 1;
+    position: relative;
+    display: flex;
+    align-items: center;
+}
 
-    padding: 10px 14px;
+.icono-lupa {
+    position: absolute;
+    left: 12px;
+    font-size: 14px;
+    color: var(--gris);
+    pointer-events: none;
+    user-select: none;
+}
+
+.buscador {
+    width: 100%;
+    padding: 10px 14px 10px 36px;
 
     background: var(--fondo);
     color: var(--texto);
@@ -102,10 +117,19 @@ textarea {
     border-radius: 10px;
 
     outline: none;
+    transition: border-color 0.2s, box-shadow 0.2s;
 }
 
 .buscador:focus {
     border-color: var(--turquesa);
+    box-shadow: 0 0 0 2px rgba(45, 212, 191, 0.15);
+}
+
+.buscador::-webkit-search-decoration,
+.buscador::-webkit-search-cancel-button,
+.buscador::-webkit-search-results-button,
+.buscador::-webkit-search-results-decoration {
+    -webkit-appearance: none;
 }
 
 
@@ -918,7 +942,6 @@ textarea {
 
     .productos-grid {
         grid-template-columns: repeat(2, 1fr);
-
         gap: 10px;
     }
 
@@ -929,15 +952,102 @@ textarea {
     }
 
     .header-contenido {
-        gap: 8px;
+        gap: 6px;
+        padding: 8px 10px;
     }
 
     .logo img {
-        width: 42px;
-        height: 42px;
+        width: 60px;
+        height: 60px;
     }
 
+    /* Ancho mínimo para que no se aplaste la lupa ni el texto */
+    .buscador-contenedor {
+        min-width: 90px;
+    }
+
+    .buscador {
+        padding: 8px 8px 8px 26px;
+        font-size: 11px;
+    }
+
+    .icono-lupa {
+        left: 8px;
+        font-size: 11px;
+    }
+
+    /* Mismo tamaño para el botón de Facebook y Carrito */
+    .boton-facebook-header,
     .boton-carrito {
         padding: 9px 10px;
+        font-size: 12px;
+        font-weight: bold;
+        border-radius: 10px;
+        white-space: nowrap;
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+    }
+}
+/* =========================
+   BOTÓN FLOTANTE FACEBOOK
+   ========================= */
+
+.facebook-flotante {
+    position: fixed;
+    bottom: 20px;
+    left: 20px;
+    z-index: 99;
+
+    display: flex;
+    align-items: center;
+    gap: 10px;
+
+    background: #1877f2;
+    color: #ffffff;
+
+    padding: 10px 16px;
+    border-radius: 50px;
+
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 14px;
+
+    box-shadow: 0 4px 15px rgba(24, 119, 242, 0.4);
+    transition: transform 0.2s, background-color 0.2s, box-shadow 0.2s;
+}
+
+.facebook-flotante:hover {
+    background: #166fe5;
+    transform: translateY(-3px);
+    box-shadow: 0 6px 20px rgba(24, 119, 242, 0.6);
+}
+
+.facebook-icono {
+    width: 20px;
+    height: 20px;
+    fill: currentColor;
+    display: block;
+}
+
+/* =========================
+   BOTÓN FACEBOOK EN HEADER
+   ========================= */
+
+.boton-facebook-header {
+    text-decoration: none;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 14px;
+    font-size: 13px;
+    white-space: nowrap;
+}
+
+/* Adaptación para celulares */
+@media (max-width: 600px) {
+    .boton-facebook-header {
+        padding: 9px 10px;
+        font-size: 11px;
     }
 }
