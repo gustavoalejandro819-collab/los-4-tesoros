@@ -1028,6 +1028,10 @@ document
     modal.addEventListener("click", (e) => {
         if (e.target === modal) {
             modal.classList.remove("activo");
+
+            // VOLVER A MOSTRAR EL BOTÓN DE FACEBOOK
+            const btnFb = document.querySelector(".facebook-flotante");
+            if (btnFb) btnFb.style.display = "flex";
         }
     });
 });
