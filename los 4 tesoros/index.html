@@ -1,0 +1,496 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+
+    <!-- Configuración básica -->
+    <meta charset="UTF-8">
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
+
+    <title>Los 4 tesoros</title>
+
+
+    <!-- CSS de nuestra página -->
+    <link rel="stylesheet" href="styles.css">
+
+    <!-- CSS de AOS (animaciones) -->
+    <link
+        rel="stylesheet"
+        href="https://unpkg.com/aos@2.3.4/dist/aos.css"
+    >
+
+</head>
+
+
+<body>
+
+
+    <!-- =========================
+        HEADER
+    ========================== -->
+
+    <header class="header">
+
+        <div class="header-contenido">
+
+            <!-- Logo -->
+            <div class="logo">
+                <img src="logo/logo 2.jpeg" alt="Los 4 tesoros">
+            </div>
+
+
+            <!-- Buscador -->
+            <input
+                id="buscador"
+                class="buscador"
+                type="text"
+                placeholder="Buscar productos..."
+            >
+
+
+            <!-- Carrito -->
+            <button
+                id="abrirCarrito"
+                class="boton-carrito"
+            >
+                🛒 Carrito
+
+                <b id="cantidadCarrito">0</b>
+            </button>
+
+        </div>
+
+    </header>
+
+
+
+    <!-- =========================
+         HERO
+    ========================== -->
+
+    <section class="hero">
+
+        <div class="hero-contenido">
+
+            <h1>
+                Bazar y electrónica para tu hogar
+            </h1>
+
+            <p>
+                Armá tu carrito y enviá tu pedido
+                por WhatsApp. Retiro o envío.
+            </p>
+
+            <button
+                id="verProductos"
+                class="boton boton-claro"
+            >
+                Ver productos
+            </button>
+
+        </div>
+
+    </section>
+
+
+
+    <!-- =========================
+         PRODUCTOS
+    ========================== -->
+
+    <main
+        id="productos"
+        class="contenedor"
+    >
+
+
+        <!-- Categorías -->
+
+        <div class="categorias">
+
+            <button
+                class="categoria activa"
+                data-categoria="Todos"
+            >
+                Todos
+            </button>
+
+            <button
+                class="categoria"
+                data-categoria="Bazar"
+            >
+                Bazar
+            </button>
+
+            <button
+                class="categoria"
+                data-categoria="Electrónica"
+            >
+                Electrónica
+            </button>
+
+        </div>
+
+
+        <!--
+            JavaScript va a colocar
+            los productos acá
+        -->
+
+        <div
+            id="productosGrid"
+            class="productos-grid"
+        ></div>
+
+    </main>
+
+
+
+    <!-- =========================
+         FOOTER
+    ========================== -->
+
+    <footer class="footer">
+
+        Los 4 tesoros ·
+        Pedidos por WhatsApp ·
+        Precios y stock sujetos a confirmación
+
+    </footer>
+
+
+
+    <!-- =========================
+         OVERLAY
+    ========================== -->
+
+    <div
+        id="overlay"
+        class="overlay"
+    ></div>
+
+
+
+    <!-- =========================
+         CARRITO
+    ========================== -->
+
+    <aside
+        id="carrito"
+        class="carrito"
+    >
+
+
+        <!-- Cabecera -->
+
+        <div class="carrito-header">
+
+            <h3>
+                Tu carrito
+            </h3>
+
+            <button
+                id="cerrarCarrito"
+                aria-label="Cerrar carrito"
+            >
+                ✕
+            </button>
+
+        </div>
+
+
+        <!-- Productos del carrito -->
+
+        <div
+            id="itemsCarrito"
+            class="items-carrito"
+        ></div>
+
+
+        <!-- Cuando no hay productos -->
+
+        <div
+            id="carritoVacio"
+            class="carrito-vacio"
+        >
+            Tu carrito está vacío 🛒
+        </div>
+
+
+        <!-- Total -->
+
+        <div class="carrito-footer">
+
+            <div class="total">
+
+                <span>
+                    Total
+                </span>
+
+                <span id="totalCarrito">
+                    $0
+                </span>
+
+            </div>
+
+
+            <button
+                id="finalizarCompra"
+                class="boton boton-completo"
+            >
+                Finalizar compra
+            </button>
+
+        </div>
+
+    </aside>
+
+
+
+    <!-- =========================
+         MODAL PRODUCTO
+    ========================== -->
+
+    <div
+        id="modalProducto"
+        class="modal"
+    >
+
+        <div class="modal-contenido">
+
+            <button
+                id="cerrarProducto"
+                class="cerrar"
+            >
+                ✕
+            </button>
+
+
+            <!--
+                JavaScript coloca
+                la información acá
+            -->
+
+            <div id="detalleProducto"></div>
+
+        </div>
+
+    </div>
+
+
+
+    <!-- =========================
+        MODAL CHECKOUT
+    ========================== -->
+
+    <div
+        id="modalCheckout"
+        class="modal"
+    >
+
+        <div class="modal-contenido form-checkout">
+
+
+            <!-- Cerrar -->
+
+            <button
+                id="cerrarCheckout"
+                class="cerrar"
+            >
+                ✕
+            </button>
+
+
+            <h2>
+                Finalizar compra
+            </h2>
+
+
+            <!-- Nombre -->
+
+            <div class="campo">
+
+                <label for="nombre">
+                    Nombre y apellido
+                </label>
+
+                <input
+                    id="nombre"
+                    type="text"
+                    autocomplete="name"
+                >
+
+            </div>
+
+
+            <!-- Forma de entrega -->
+
+            <div class="campo">
+
+                <label>
+                    ¿Cómo lo recibís?
+                </label>
+
+
+                <div class="opciones">
+
+                    <label class="opcion">
+
+                        <input
+                            type="radio"
+                            name="entrega"
+                            value="Retiro"
+                            checked
+                        >
+
+                        🏬 Retiro
+
+                    </label>
+
+
+                    <label class="opcion">
+
+                        <input
+                            type="radio"
+                            name="entrega"
+                            value="Envío"
+                        >
+
+                        🚚 Envío
+
+                    </label>
+
+                </div>
+
+            </div>
+
+
+            <!-- Dirección -->
+
+            <div
+                id="campoDireccion"
+                class="campo"
+                style="display: none;"
+            >
+
+                <label for="direccion">
+                    Dirección de entrega
+                </label>
+
+                <input
+                    id="direccion"
+                    type="text"
+                    autocomplete="street-address"
+                >
+
+            </div>
+
+
+            <!-- Forma de pago -->
+
+            <div class="campo">
+
+                <label>
+                    Forma de pago
+                </label>
+
+
+                <div class="opciones">
+
+                    <label class="opcion">
+
+                        <input
+                            type="radio"
+                            name="pago"
+                            value="Efectivo"
+                            checked
+                        >
+
+                        💵 Efectivo
+
+                    </label>
+
+
+                    <label class="opcion">
+
+                        <input
+                            type="radio"
+                            name="pago"
+                            value="Mercado Pago"
+                        >
+
+                        💳 Mercado Pago
+
+                    </label>
+
+                </div>
+
+
+                <p
+                    id="notaPago"
+                    class="nota-pago"
+                ></p>
+
+            </div>
+
+
+            <!-- Comentarios -->
+
+            <div class="campo">
+
+                <label for="nota">
+                    Comentarios (opcional)
+                </label>
+
+                <textarea
+                    id="nota"
+                    rows="2"
+                ></textarea>
+
+            </div>
+
+
+            <!-- WhatsApp -->
+
+            <button
+                id="enviarWhatsApp"
+                class="boton boton-completo"
+            >
+                Enviar pedido por WhatsApp
+            </button>
+
+        </div>
+
+    </div>
+
+
+
+    <!-- =========================
+        TOAST
+    ========================== -->
+
+    <div
+        id="toast"
+        class="toast"
+    ></div>
+
+
+
+    <!-- =========================
+        JAVASCRIPT
+    ========================== -->
+
+    <!-- Librería AOS -->
+    <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+
+    <!-- Nuestro JavaScript -->
+    <script src="script.js"></script>
+
+
+</body>
+
+</html>
