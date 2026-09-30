@@ -1051,3 +1051,8 @@ textarea {
         font-size: 11px;
     }
 }
+/* Ocultar botón flotante cuando el modal del producto o el carrito están activos */
+body:has(#modalProducto.activo) .facebook-flotante,
+body:has(#carrito.activo) .facebook-flotante {
+    display: none !important;
+}
