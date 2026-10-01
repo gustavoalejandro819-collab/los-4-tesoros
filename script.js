@@ -17,7 +17,7 @@ const productos = [
     },
     {
         id: 2,
-        nombre: "Balanza gramera",
+        nombre: "Balanza gramera lambo tech",
         categoria: "Bazar",
         precio: 10000,
         etiqueta: "NUEVO",
@@ -80,7 +80,7 @@ const productos = [
     },
     {
         id: 9,
-        nombre: "Cargador rápido",
+        nombre: "Cargador de carga rápida de doble ficha usb",
         categoria: "Electrónica",
         precio: 10000,
         etiqueta: "NUEVO",
@@ -224,7 +224,7 @@ const productos = [
     },
     {
         id: 25,
-        nombre: "Foco bolichero",
+        nombre: "Foco led giratorio bolichero",
         categoria: "Bazar",
         precio: 20000,
         etiqueta: "NUEVO",
@@ -260,7 +260,7 @@ const productos = [
     },
     {
         id:29,
-        nombre:"pistola de burbujas",
+        nombre:"pistola de burbujas de unicornio",
         categoria:"Bazar",
         precio:12000,
         etiqueta:"NUEVO",
@@ -276,7 +276,7 @@ const productos = [
     },
     {
         id:31,
-        nombre:"Rallador  3 en 1",
+        nombre:"Rallador de verduras 3 en 1",
         categoria:"Bazar",
         precio:25000,
         etiqueta:"NUEVO",
@@ -327,7 +327,7 @@ const productos = [
 
     {
         id:37,
-        nombre:"SmartWatch",
+        nombre:"SmartWatch resistente a salpicaduras",
         categoria:"Electrónica",
         precio:16000 ,
         etiqueta:"NUEVO",
@@ -337,7 +337,7 @@ const productos = [
 
     {
         id:38,
-        nombre:"SmartWatch macarons",
+        nombre:"SmartWatch macarons colores pasteles",
         categoria:"Electrónica",
         precio: 10000,
         etiqueta:"NUEVO",
@@ -347,7 +347,7 @@ const productos = [
 
     {
         id:39,
-        nombre:"Parlante",
+        nombre:"Parlante de rueda",
         categoria:"Electrónica",
         precio: 22000,
         etiqueta:"NUEVO",
@@ -367,7 +367,7 @@ const productos = [
 
     {
         id:41,
-        nombre:"Licuadora portatil ",
+        nombre:"Licuadora portatil recargable",
         categoria:"Bazar",
         precio: 18000,
         etiqueta:"NUEVO",
@@ -397,7 +397,7 @@ const productos = [
 
     {
         id:44,
-        nombre:"Picador de verduras",
+        nombre:"Picador de verduras no electrico",
         categoria:"Bazar",
         precio: 10000,
         etiqueta:"NUEVO",
@@ -437,7 +437,7 @@ const productos = [
 
     {
         id:48,
-        nombre:"Batidora",
+        nombre:"Batidora electrica de 7 velocidades ",
         categoria:"Bazar",
         precio: 30000,
         etiqueta:"NUEVO",
