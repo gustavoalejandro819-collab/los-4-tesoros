@@ -257,7 +257,242 @@ const productos = [
         etiqueta: "NUEVO",
         imagen: "productos/kit-de-destornilladores.jpeg",
         descripcion: "Set de destornilladores de precisión ideal para reparaciones electrónicas y hogareñas."
-    }
+    },
+    {
+        id:29,
+        nombre:"pistola de burbujas",
+        categoria:"Bazar",
+        precio:12000,
+        etiqueta:"NUEVO",
+        imagen:"productos/pistola-de-burbujas.jpeg"
+    },
+    {
+        id:30,
+        nombre:"Tensiometro digital con sonido",
+        categoria:"Electrónica",
+        precio:30000,
+        etiqueta:"NUEVO",
+        imagen:"productos/tensiometro.jpeg"
+    },
+    {
+        id:31,
+        nombre:"Rallador  3 en 1",
+        categoria:"Bazar",
+        precio:25000,
+        etiqueta:"NUEVO",
+        imagen:"productos/rallador-3-1.jpeg"
+    },
+    {
+        id:32,
+        nombre:"Adaptador 7 puertos usb",
+        categoria:"Electrónica",
+        precio:5000,
+        etiqueta:"NUEVO",
+        imagen:"productos/adaptador-usb.jpeg"
+    },
+    {
+        id:33,
+        nombre:"Set de cuchillas",
+        categoria:"Bazar",
+        precio:20000,
+        etiqueta:"NUEVO",
+        imagen:"productos/adaptador-usb.jpeg",
+    },
+    {
+        id:34,
+        nombre:"Luz led 5 metros",
+        categoria:"Electrónica",
+        precio:12000,
+        etiqueta:"NUEVO",
+        imagen:"productos/luz-led.jpeg"
+    },
+    {
+        id:35,
+        nombre:"SmartWatch  7 en 1",
+        categoria:"Electrónica",
+        precio:25000,
+        etiqueta:"NUEVO",
+        imagen:"productos/smart-watch.jpeg"
+
+    },
+    {
+        id:36,
+        nombre:"SmartWatch + auriculares ",
+        categoria:"Electrónica",
+        precio:16000,
+        etiqueta:"NUEVO",
+        imagen:"productos/smart-auris.jpeg"
+
+    },
+
+    {
+        id:37,
+        nombre:"SmartWatch",
+        categoria:"Electrónica",
+        precio:16000 ,
+        etiqueta:"NUEVO",
+        imagen:"productos/smart.jpeg"
+
+    },
+
+    {
+        id:38,
+        nombre:"SmartWatch macarons",
+        categoria:"Electrónica",
+        precio: 10000,
+        etiqueta:"NUEVO",
+        imagen:"productos/smart-macaron-color.jpeg"
+
+    },
+
+    {
+        id:39,
+        nombre:"Parlante",
+        categoria:"Electrónica",
+        precio: 22000,
+        etiqueta:"NUEVO",
+        imagen:"productos/parlante-rueda.jpeg"
+
+    },
+
+    {
+        id:40,
+        nombre:"Lampara parlante led",
+        categoria:"Electrónica",
+        precio:12000 ,
+        etiqueta:"",
+        imagen:"productos/lampara-parlante.jpeg"
+
+    },
+
+    {
+        id:41,
+        nombre:"Licuadora portatil ",
+        categoria:"Bazar",
+        precio: 18000,
+        etiqueta:"NUEVO",
+        imagen:"productos/licuadora.jpeg"
+
+    },
+
+    {
+        id:42,
+        nombre:"Paleta mosquitera electrica",
+        categoria:"Bazar",
+        precio:12000 ,
+        etiqueta:"NUEVO",
+        imagen:"productos/paleta.jpeg"
+
+    },
+
+    {
+        id:43,
+        nombre:"Soporte de tv hasta 55 giratorio ",
+        categoria:"Bazar",
+        precio: 30000,
+        etiqueta:"NUEVO",
+        imagen:"productos/soporte-tv-55.jpeg"
+
+    },
+
+    {
+        id:44,
+        nombre:"Picador de verduras",
+        categoria:"Bazar",
+        precio: 10000,
+        etiqueta:"NUEVO",
+        imagen:"productos/picador.jpeg"
+
+    },
+
+    {
+        id:45,
+        nombre:"Marcadores x36 de acrilicos para zapatillas cerámica tela madera vidrio papel ",
+        categoria:"Bazar",
+        precio: 15000,
+        etiqueta:"NUEVO",
+        imagen:"productos/neoart-36.jpeg"
+
+    },
+
+    {
+        id:46,
+        nombre:"Marcadores x48 de acrilicos para zapatillas cerámica tela madera vidrio papel",
+        categoria:"Bazar",
+        precio:20000 ,
+        etiqueta:"NUEVO",
+        imagen:"productos/neoart-48.jpeg"
+
+    },
+
+    {
+        id:47,
+        nombre:"Cargador portátil carga rapida 1.000 mAh ",
+        categoria:"Electrónica",
+        precio: 16000,
+        etiqueta:"NUEVO",
+        imagen:"productos/cargador-portatil.jpeg"
+
+    },
+
+    {
+        id:48,
+        nombre:"Batidora",
+        categoria:"Bazar",
+        precio: 30000,
+        etiqueta:"NUEVO",
+        imagen:"productos/batidora.jpeg"
+
+    },
+
+    {
+        id:49,
+        nombre:"Tinta para impresora x4",
+        categoria:"Bazar",
+        precio: 30000,
+        etiqueta:"NUEVO",
+        imagen:"productos/tinta1.jpeg"
+
+    },
+
+    {
+        id:50,
+        nombre:"Tinta para impresora x4",
+        categoria:"Bazar",
+        precio: 20000,
+        etiqueta:"NUEVO",
+        imagen:"productos/tinta2.jpeg"
+
+    },
+
+    {
+        id:51,
+        nombre:"Papel fotográfico autoadhesivos  a4 x 100",
+        categoria:"Bazar",
+        precio: 25000,
+        etiqueta:"NUEVO",
+        imagen:"productos/papel.jpeg"
+
+    },
+
+    {
+        id:52,
+        nombre:"Papel fotográfico autoadhesivo x 20",
+        categoria:"Bazar",
+        precio: 7000,
+        etiqueta:"NUEVO",
+        imagen:"productos/papel-adhesivo.jpeg"
+
+    },
+
+    {
+        id:53,
+        nombre:"Resma a4 x500",
+        categoria:"Bazar",
+        precio:10000,
+        etiqueta:"NUEVO",
+        imagen:"productos/resma-a4.jpeg"
+    },
 ];
 
 
